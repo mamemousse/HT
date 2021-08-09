@@ -1,0 +1,205 @@
+<html>
+<body>
+   <style>
+       #DEBUT {
+           display: grid;
+           grid-template-columns: 2fr 6fr;
+       }
+       #CORPHEADER {
+           display: grid;
+           align-items: center;
+       }
+       strong{
+           font-size: 2em;
+           color: #13297f;
+       }
+       #CORPHEADER {
+           color: #13297f;
+           grid-template-columns: 1fr 1fr;
+           padding: 10px;        
+       }
+       #DEBUT nav {
+           text-align: right;
+       }
+       #DEBUT nav ul li a.getstarted {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+       }
+       #DEBUT nav ul li a {
+           text-decoration: none;
+       }
+       #DEBUT nav ul li {
+           display: inline;
+           padding: 0 10px;
+       }
+       #DEBUT img {
+        width: 100px;
+        height: 100px;
+       }
+       #Services {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+        
+       }
+       .Premier {
+           background-color: #33428a;
+           height: 375px;
+           padding: 1px;
+       }
+       #Services p {
+           color: white;
+       }
+       .Premier h1 {
+           text-align: center;
+           color: white;
+           grid-template-columns: 1fr 2fr 3fr 4fr;
+       }
+       .more {
+           background-color: #ff4c00;
+           border-radius: 75px;
+           width: 400px;
+        }
+        .Deuxieme {
+           background-color: ff4c00;
+           height: 375px;
+           padding: 10px;
+       }
+       .Deuxieme h1 {
+           text-align: center;
+           color: white;
+           grid-template-columns: 1fr 1fr 1fr;
+       }
+       #PORFOLIO {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           text-align: center;
+           color: white;
+       }       
+       #Porfolio p {
+           color: white;
+       }
+       .Troisieme {
+           background-color: white;
+           height: 375  ²px;
+           padding: 10px;
+       }
+       .Troisieme h1 {
+           text-align: center;
+           color: blue;
+           grid-template-columns: 1fr 1fr;
+       }
+       #INFOS p {
+           color: blue;
+       }
+       #INFOS {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: blue;
+    text-align: center;
+       }
+       .Quatrieme {
+           background-color: 33428a;
+           height: 75px;
+           padding: 10px;
+           color: white;
+           text-align: center;
+       }
+       .SOURCES {
+           display: grid;
+       }
+   </style> 
+    <div id="DEBUT">
+      <div>
+          <img src="Capturelogo.PNG">
+      </div>
+      <nav>
+          <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">WORK</a></li>
+              <li><a href="#">INFO</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#" class="getstarted">GET STARTED</a></li>
+          </ul>
+      </nav>
+    </div>
+    <div id="CORPHEADER">
+        <div class="Parie1">
+            <strong>Content<br> Management<br> System</strong><br><br><br>
+            <p>
+                Lorem ipsum dolor sit, amet<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br><br><a href="#" class="learnmore">LEARN MORE</a>               
+            </p>
+        </div>
+        <div class="Parie2">
+            <img src="Captureordi.PNG">
+        </div> 
+    </div>
+    <section class="Premier">
+        <div>
+            <h1>NOS SERVICES</h1>                
+        </div>
+        <div id="Services">
+            <div class="Element1">
+                <img src="avion.png" alt="avion.png" title="avion.png">
+                <p> 
+                    Lorem ipsum dolor sit, amet<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br><br><br><a href="#" class="nmore">MORE</a>
+                </p>
+            </div>
+            <div class="Element2">
+                <img src="voiture.png" alt="voiture.png" title="voiture.png">
+                    <p> 
+                    Lorem ipsum dolor sit, amet<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br><br><br><a href="#" class="nmore">MORE</a>
+                </p>
+            </div>
+            <div class="Element3">
+                <img src="home.png" alt="home.png" title="home.png">
+                    <p>
+                    Lorem ipsum dolor sit, amet<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br>consectetur adipisicing elit<br><br><br><a href="#" class="nmore">MORE</a>
+                    </p>
+            </div>
+        </div>    
+    </section> 
+    <section class="Deuxieme">
+            <div>
+                <h1>PORFOLIO</h1>
+            </div>
+            <div id="Porfolio">
+                <div class="Element1">
+                    <img src="telechargement.jpeg" alt="telechargement.jpeg" title="telechargement.jpeg">
+                </div>
+                <div class="Element2">
+                    <img src="Capture1.PNG" alt="Capture1.PNG" title="Capture1.PNG">
+                </div>
+                <div class="Element3">
+                    <img src="capture2.PNG" alt="capture2.PNG" title="capture2.PNG">
+                </div>
+            </div>        
+    </section>
+    <section class="Troisieme">
+            <div>
+                <h1>CONTACT</h1>
+            </div>
+            <div id="INFOS">
+                <div class="SOURCES">
+                    <p>Tel: +221 77 687 89 05</p>
+                    <p>Adresse: Dakar, Point E</p>
+                    <p>Siteweb: www.monsite.com</p>
+                    <p><img src="insta.png" alt="insta.png" title="insta.png"></p>
+                    <p><img src="face.png" alt="face.png" title="face.png"></p>
+                    <p><img src="link.png" alt="link.png" title="link.png"></p>
+                    <p><img src="twitter.png" alt="twitter.png" title="twitter.png"></p>
+                </div>
+                <div class="MAPS">
+                  <img src="carte.png" alt="carte.png" title="carte.png">      
+                </div>
+            </div>
+    </section>
+    <section class="Quatrieme">
+        <div>
+            <p>Copyright 2021, Design by RJ</p>
+            <p>inforservall@gmail.com</p>
+        </div>
+    </section>
+    </body>
+</html>
